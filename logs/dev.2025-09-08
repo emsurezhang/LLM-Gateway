@@ -1,0 +1,127 @@
+2025-09-08T13:53:55.638974+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T13:53:55.639290+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T13:53:55.645243+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T13:53:55.645277+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:41: Initializing memory cache...
+2025-09-08T13:53:55.645473+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T13:53:55.646025+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T13:53:55.646171+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T13:53:55.646195+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T13:53:55.646206+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T13:53:55.646437+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:60: Loaded provider key pools from database key_pool_count=0
+2025-09-08T13:53:55.646487+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:133: Successfully preloaded all provider key pools to cache
+2025-09-08T13:53:55.646498+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:134: Initialized round robin counters for 0 providers
+2025-09-08T13:53:55.646506+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:44: Global cache initialized successfully
+2025-09-08T13:53:55.646515+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:53: Application started successfully!
+2025-09-08T13:53:55.646522+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:54: Database and cache have been initialized.
+2025-09-08T13:53:55.646530+00:00 DEBUG ThreadId(01) project_rust_learn: src/main.rs:55: You can now run the tests with 'cargo test' to test the functionality.
+2025-09-08T13:54:00.875863+00:00 DEBUG ThreadId(01) project_rust_learn::llm_api::ollama::ollama: src/llm_api/ollama/ollama.rs:362: Call log created successfully call_id=baf299a6-e433-4568-b5d9-bb51c56e0326 model_id=Some("1") total_duration=5202363708 tokens_output=14
+2025-09-08T13:56:09.176268+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T13:56:09.176403+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T13:56:09.179557+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T13:56:09.179579+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:41: Initializing memory cache...
+2025-09-08T13:56:09.179680+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T13:56:09.180035+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T13:56:09.180184+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T13:56:09.180202+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T13:56:39.682742+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T13:57:09.621198+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:60: Loaded provider key pools from database key_pool_count=1
+2025-09-08T13:57:09.622225+00:00 ERROR ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:75: Failed to decrypt API key for provider key pool, skipping key_pool_id=1 provider=ali error=Base64 decode failed: Invalid padding
+2025-09-08T13:57:09.622419+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:133: Successfully preloaded all provider key pools to cache
+2025-09-08T13:57:09.622468+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:134: Initialized round robin counters for 0 providers
+2025-09-08T13:57:09.622493+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:44: Global cache initialized successfully
+2025-09-08T13:57:09.622513+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:53: Application started successfully!
+2025-09-08T13:57:09.622534+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:54: Database and cache have been initialized.
+2025-09-08T13:57:09.622555+00:00 DEBUG ThreadId(01) project_rust_learn: src/main.rs:55: You can now run the tests with 'cargo test' to test the functionality.
+2025-09-08T13:57:45.059754+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T13:57:45.059886+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T13:57:45.063325+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T13:57:45.063358+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:41: Initializing memory cache...
+2025-09-08T13:57:45.063482+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T13:57:45.063879+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T13:57:45.064061+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T13:57:45.064087+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T13:57:58.046466+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T13:59:17.981268+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:60: Loaded provider key pools from database key_pool_count=1
+2025-09-08T13:59:17.982576+00:00 ERROR ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:75: Failed to decrypt API key for provider key pool, skipping key_pool_id=1 provider=ali error=Base64 decode failed: Invalid padding
+2025-09-08T13:59:17.982759+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:133: Successfully preloaded all provider key pools to cache
+2025-09-08T13:59:17.982801+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:134: Initialized round robin counters for 0 providers
+2025-09-08T14:00:42.920730+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:00:42.920858+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:00:42.924801+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:00:42.924832+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:41: Initializing memory cache...
+2025-09-08T14:00:42.924950+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T14:00:42.925345+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T14:00:42.925515+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T14:00:42.925541+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T14:00:50.523457+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T14:01:54.620923+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:01:54.620970+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:01:54.622957+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:01:54.622987+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:41: Initializing memory cache...
+2025-09-08T14:01:54.623101+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T14:01:54.623347+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T14:01:54.623416+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T14:01:54.623439+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T14:02:09.017602+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T14:03:55.739875+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:60: Loaded provider key pools from database key_pool_count=1
+2025-09-08T14:04:41.939656+00:00 ERROR ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:75: Failed to decrypt API key for provider key pool, skipping key_pool_id=1 provider=ali error=Base64 decode failed: Invalid padding
+2025-09-08T14:04:54.009036+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:133: Successfully preloaded all provider key pools to cache
+2025-09-08T14:04:54.953619+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:134: Initialized round robin counters for 0 providers
+2025-09-08T14:05:09.433156+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:44: Global cache initialized successfully
+2025-09-08T14:08:04.138425+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:08:04.138519+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:08:04.141642+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:08:04.142945+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:65: Initializing memory cache...
+2025-09-08T14:08:04.143042+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T14:08:04.143237+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T14:08:04.143407+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T14:08:04.143463+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T14:08:39.406729+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T14:08:51.084620+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:60: Loaded provider key pools from database key_pool_count=1
+2025-09-08T14:09:05.481639+00:00 ERROR ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:75: Failed to decrypt API key for provider key pool, skipping key_pool_id=98a6d541-34bf-4ff2-86dd-def40563e947 provider=openai error=Base64 decode failed: Invalid byte 95, offset 9.
+2025-09-08T14:11:27.603756+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:11:27.603887+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:11:27.607133+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:11:27.608216+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:56: Initializing memory cache...
+2025-09-08T14:11:27.608313+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T14:11:27.608527+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T14:11:27.608670+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T14:11:27.608688+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T14:11:30.904058+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:133: Successfully preloaded all provider key pools to cache
+2025-09-08T14:11:30.904317+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:134: Initialized round robin counters for 0 providers
+2025-09-08T14:11:30.904378+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:68: Global cache initialized successfully
+2025-09-08T14:11:30.904410+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:77: Application started successfully!
+2025-09-08T14:11:30.904439+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:78: Database and cache have been initialized.
+2025-09-08T14:11:30.904469+00:00 DEBUG ThreadId(01) project_rust_learn: src/main.rs:79: You can now run the tests with 'cargo test' to test the functionality.
+2025-09-08T14:11:35.654578+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T14:11:40.454255+00:00 DEBUG ThreadId(01) project_rust_learn::llm_api::ollama::ollama: src/llm_api/ollama/ollama.rs:362: Call log created successfully call_id=7400b77e-68de-4f1b-b895-9023e72a9263 model_id=Some("1") total_duration=5925140041 tokens_output=8
+2025-09-08T14:11:41.841608+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:60: Loaded provider key pools from database key_pool_count=1
+2025-09-08T14:11:41.842729+00:00 DEBUG ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:112: Cached provider key pool with decrypted API key successfully key_pool_id=7bf8037c-5a85-4e00-a7b5-098ca4ab8cf7 provider=openai is_active=true cache_key=provider_key_pool:openai:7bf8037c-5a85-4e00-a7b5-098ca4ab8cf7 api_key_length=25
+2025-09-08T14:11:41.842988+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:133: Successfully preloaded all provider key pools to cache
+2025-09-08T14:11:41.843019+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:134: Initialized round robin counters for 1 providers
+2025-09-08T14:11:41.843042+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:137:   openai: 1 active keys
+2025-09-08T14:11:41.843072+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:59: Global cache initialized successfully
+2025-09-08T14:11:41.843097+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:68: Application started successfully!
+2025-09-08T14:11:41.843172+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:69: Database and cache have been initialized.
+2025-09-08T14:11:41.843216+00:00 DEBUG ThreadId(01) project_rust_learn: src/main.rs:70: You can now run the tests with 'cargo test' to test the functionality.
+2025-09-08T14:16:06.348239+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:16:06.348347+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:16:06.351442+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:16:39.527343+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:16:39.527452+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:16:39.530797+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:18:40.502456+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:18:40.502597+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:18:40.506178+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:19:24.729780+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:19: Logger initialized successfully
+2025-09-08T14:19:24.729923+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:24: Initializing database...
+2025-09-08T14:19:24.733396+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:31: Database initialized successfully
+2025-09-08T14:19:40.885651+00:00  INFO ThreadId(01) project_rust_learn: src/main.rs:57: Initializing memory cache...
+2025-09-08T14:19:40.886043+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:8: Starting to preload models to cache
+2025-09-08T14:19:40.886914+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:14: Loaded models from database model_count=1
+2025-09-08T14:19:40.887372+00:00 DEBUG ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:31: Cached model successfully model_name=llama2:latest model_id=1 provider=ollama cache_key=model:ollama:llama2:latest
+2025-09-08T14:19:40.887428+00:00  INFO ThreadId(01) project_rust_learn::dao::model::preload: src/dao/model/preload.rs:40: Successfully preloaded all models to cache
+2025-09-08T14:19:46.769411+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:54: Starting to preload provider key pools to cache
+2025-09-08T14:19:52.177136+00:00  INFO ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:60: Loaded provider key pools from database key_pool_count=3
+2025-09-08T14:19:52.178795+00:00 DEBUG ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:112: Cached provider key pool with decrypted API key successfully key_pool_id=7bf8037c-5a85-4e00-a7b5-098ca4ab8cf7 provider=openai is_active=true cache_key=provider_key_pool:openai:7bf8037c-5a85-4e00-a7b5-098ca4ab8cf7 api_key_length=25
+2025-09-08T14:19:52.179263+00:00 DEBUG ThreadId(01) project_rust_learn::dao::provider_key_pool::preload: src/dao/provider_key_pool/preload.rs:112: Cached provider key pool with decrypted API key successfully key_pool_id=0a4b9a9e-923c-410f-9485-034c066b17ba provider=openai is_active=true cache_key=provider_key_pool:openai:0a4b9a9e-923c-410f-9485-034c066b17ba api_key_length=25
